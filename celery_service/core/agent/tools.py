@@ -36,7 +36,7 @@ def read_file(file_path=None):
 
 
 def content_writer(topic):
-    genai.configure(api_key="AIzaSyCy0W20TYiKv-srfUgogBtvzzp4qiKwONM")
+    genai.configure(api_key="")
     
     system_prompt = f"""
     You are a specialized writing assistant. Your task is to create a comprehensive, well-structured report on a given topic. The report should begin with an introduction that clearly states the topic and its significance. Follow this with a background section that provides historical context or foundational information. Then discuss current trends, notable challenges, key stakeholders, and any recent developments relevant to the topic.
