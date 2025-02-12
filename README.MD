@@ -1,6 +1,12 @@
 # Genesis Backend Services
 
+![Architecture](./Genesis-backend-final.png)
+
 A distributed backend system that powers the Genesis-GPT platform, built with FastAPI, RabbitMQ, Celery, and PostgreSQL for handling complex workflow management and autonomous agent task processing.
+
+## Tags
+
+`FastAPI` `Python` `RabbitMQ` `Celery` `PostgreSQL` `Microservices` `Docker` `JWT` `REST API` `Asynchronous Processing` `Task Queue` `Database` `Workflow Automation`
 
 ## Architecture Overview
 
@@ -194,4 +200,3 @@ pytest fastapi_service/tests/integration/
 5. Submit a pull request
 
 ## License
-
