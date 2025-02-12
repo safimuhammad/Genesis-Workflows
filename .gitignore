@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.env
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+db.log
+prompt.log
+task_handler.log
+
+# Database
+*.db
+*.sqlite3
+*.sqlite
+sql.db
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+test.py
+
+# Distribution
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Project specific directories
+output/
+error_correction/
+handlers/
+router/
+agent/agent_template.py
+
+# Output files
+*.out
+*.md
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Local development
+local_settings.py
+db.sqlite3
+media/
+
+# Security
+*.pem
+*.key
+*.crt
+*.cer
+*.der
+*.priv
+api_key.json 
