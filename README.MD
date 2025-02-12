@@ -1,7 +1,5 @@
 # Genesis Workflows 🚀
 
-![Architecture](./Genesis-backend-final.png)
-
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
@@ -19,7 +17,7 @@
 A distributed backend system that powers the Genesis-GPT platform, built with FastAPI, RabbitMQ, Celery, and PostgreSQL for handling complex workflow management and autonomous agent task processing. 🤖
 
 ## Architecture Overview 🏗️
-
+![Architecture](./Genesis-backend-final.png)
 The backend consists of three main microservices:
 
 1. **FastAPI Service** (`fastapi_service/`) ⚡
