@@ -1,0 +1,18 @@
+fastapi==0.95.0
+sqlalchemy==1.4.0
+slowapi==0.1.4
+python-dotenv==0.19.2
+pydantic[email]==1.9.0
+python-jose==3.3.0
+httpx==0.23.0
+passlib==1.7.4
+uvicorn==0.22.0
+cryptography==38.0.0
+celery==5.2.3
+itsdangerous
+authlib
+alembic
+python-multipart
+# PostgreSQL Adapter
+psycopg2-binary==2.9.6
+flower==1.0.0
